@@ -31,7 +31,7 @@ const Contact = () => {
       data: form,
     };
     await axios
-      .post("https://www.js-tech1.com/api/user/sendMail", config)
+      .post("https://node-ecom-six.vercel.app/api/user/sendMail", config)
       .then(() => {
         setLoading(false);
         setAlertOpen(true);
