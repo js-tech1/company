@@ -5,7 +5,7 @@
 .vscode
 # testing
 /coverage
-new.tree
+*.tree
 
 # next.js
 /.next/
